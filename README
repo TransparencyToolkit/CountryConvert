@@ -1,0 +1,5 @@
+This converts 2-character ISO country codes to 3-character ISO country codes. To use, download the countryconvert gem and-
+require 'countryconvert'
+
+c = CountryConvert.new(json input, "field name with country code")
+output = c.convert

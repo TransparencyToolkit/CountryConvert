@@ -20,5 +20,3 @@ class CountryConvert
   end
 end
 
-c = CountryConvert.new(File.read("filtered.json"), "country")
-puts c.convert

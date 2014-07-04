@@ -258,10 +258,13 @@ class CountryConvert
   def convert
     finaldata = Array.new
     @input.each do |f|
+      begin
       if @isocodes[f[@countryfield].upcase]
         threeletter = @isocodes[f[@countryfield].upcase]
         f[@countryfield] = threeletter
         finaldata.push(f)
+      end
+      rescue
       end
     end
     return JSON.pretty_generate(finaldata)

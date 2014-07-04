@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'countryconvert'
-  s.version     = '0.0.3'
-  s.date        = '2014-07-03'
+  s.version     = '0.0.4'
+  s.date        = '2014-07-04'
   s.summary     = "Converts country codes"
   s.description = "Converts 2-char ISO country codes to 3-char."
   s.authors     = ["M. C. McGrath"]
